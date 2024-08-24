@@ -1,7 +1,7 @@
 ## Neko Instagram Downloader
 
 A simple Instagram post downloader web app built with FastAPI, Tailwind CSS, and gallery-dl.
-<br\>
+
 \
 <img src="assets/screenshot.png" alt="screenshot" width="300"/>
 <img src="assets/screenshot2.png" alt="screenshot" width="300"/>
