@@ -1,6 +1,7 @@
 ## Neko Instagram Downloader
 
 A simple Instagram post downloader web app built with FastAPI, Tailwind CSS, and gallery-dl.
+![alt text](assets/screenshot.png)
 
 ### Features
 
@@ -40,7 +41,7 @@ A simple Instagram post downloader web app built with FastAPI, Tailwind CSS, and
 
 3. Install the dependencies:
 
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
