@@ -60,8 +60,7 @@ def delete_file_after_delay(file_path, delay=600):  # 600 seconds = 10 minutes
     scheduled_deletions[file_path] = thread
 
 def is_valid_instagram_url(url):
-    # Updated regex pattern to support a wider range of Instagram URLs
-    pattern = r'^https?://(?:www\.)?instagram\.com/(?:p|reel|stories)/(?:[\w-]+/)?[\w-]+(?:/[\w-]+)?(?:\?.*)?$'
+    pattern = r'^https?://(?:www\.)?instagram\.com/(?:p|reel|stories|[^/]+)(?:/[\w-]+){0,2}/?(?:\?.*)?$'
     return re.match(pattern, url) is not None
 
 @nekoinsta_router.get("/")
